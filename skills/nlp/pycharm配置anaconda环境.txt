@@ -1,0 +1,14 @@
+anaconda官网https://www.anaconda.com/
+pycharm、idea官网https://www.jetbrains.com/idea/
+pycharm破解 ：
+   1、http://idea.lanyus.com/
+   2、下载破解补丁无需使用注册码
+   3、将下载的文件拷贝到pycharm安装目录bin下
+   4、编辑idea.exe.vmoptions和idea64.exe.vmoptions文件，在-javaagent:破解包的位置
+   -javaagent:D:\Program Files\JetBrains\PyCharm 2018.3.4\bin\JetbrainsIdesCrack-4.2-release-sha1-3323d5d0b82e716609808090d3dc7cb3198b8c4b.jar
+   修改-Xms256m 
+       -Xmx1024m 加快启动和运行速度
+   5、http://idea.lanyus.com/获取注册码
+   6、复制注册码，打开pycharm，用注册码激活；
+   
+pycharm排至anaconda环境，使用conda安装包file→setting→project interperter→project interpreter 右边轮盘→add...→system inerpreter→选择anaconda目录下python

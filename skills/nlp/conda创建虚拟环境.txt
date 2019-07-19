@@ -1,0 +1,17 @@
+进入conda prompt
+conda info -e 查看现有的虚拟环境
+conda create --name 虚拟环境名 python=python3.6.5
+conda activate py36 激活虚拟环境
+conda deactivate 退出虚拟环境
+conda remove --name py36 --all 删除虚拟环境
+
+增加国内镜像
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config ---set show_channel_urls yes
+
+
+conda 管理安装包
+https://blog.csdn.net/zhayushui/article/details/80433768
+
+
+conda clean -p      //删除没有用的包

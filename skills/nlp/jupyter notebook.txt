@@ -1,0 +1,9 @@
+1、新建jupyter notebook 文件夹
+2、cmd输入jupyter notebook --generate-config 生成jupyter_notebook_config.py文件
+3、修改jupyter_notebook_config.py 修改c.NotebookApp.notebook_dir =为工作目录，去掉掐面的#
+4、修改c.NotebookApp.browser = 添加
+import webbrowser
+webbrowser.register("chrome", None, webbrowser.GenericBrowser(u"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"))
+c.NotebookApp.browser = 'chrome'
+
+python -m ipykernel install --user --name py36 --display-name "anconda py36"
